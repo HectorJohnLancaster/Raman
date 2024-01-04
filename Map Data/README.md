@@ -2,7 +2,7 @@ This series of code is capable of processing Raman mapping data from a txt file 
 
 **The code must be run in the following order:**
 1. **map_process**
-   info: imports map data from txt file and stores in accessible format and allows for normalisation, rebinning, cosmic-ray removal and fluorescent background removal
+   \ninfo: imports map data from txt file and stores in accessible format and allows for normalisation, rebinning, cosmic-ray removal and fluorescent background removal
    requirements: if rebinning requires "xwindow" in directory; if fluorescent background removal requires "rolling_ball_map" in directory
 3. **map_fit**
    info: fits map data with defined peaks)
