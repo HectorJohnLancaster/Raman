@@ -1,11 +1,11 @@
-This series of code is capable of processing Raman mapping data from a txt file in the format given in "example_data.txt". 
+This series of code is capable of processing Raman mapping data from a txt file in the format given in "example_map_data.txt". 
 
 **The code must be run in the following order:**
 1. **map_process**  
    info: imports map data from txt file and stores in accessible format and allows for normalisation, rebinning, cosmic-ray removal and fluorescent background removal  
    requirements: if rebinning requires "xwindow" in directory; if fluorescent background removal requires "rolling_ball_map" in directory
 3. **map_fit**  
-   info: fits map data with defined peaks)  
+   info: fits map data with defined peaks  
    requirements: requires "initial_guesses" in directory
 5. **heatmap**  
    info: produces a heatmap of specified fit parameters form the fitted mapping data  
